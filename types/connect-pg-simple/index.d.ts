@@ -28,6 +28,7 @@ declare namespace connectPgSimple {
       conString?: string | undefined;
       conObject?: PoolConfig | undefined;
       ttl?: number | undefined;
+      disableTouch?: boolean | undefined;
       createTableIfMissing?: boolean | undefined;
       schemaName?: string | undefined;
       tableName?: string | undefined;
